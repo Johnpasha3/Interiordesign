@@ -1,0 +1,34 @@
+img{
+    width: 100%;
+    height: 400px;
+}
+.container{
+    text-align: center;
+}
+table{
+    margin-left: 150px;
+}
+.div{
+    background-color: cyan;
+    color: black;
+}
+h6{
+    text-decoration: 2px solid underline;
+}
+img  {
+    
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+img:hover {
+    color: #ec0f08;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    background-color: #1b9ce3;
+}

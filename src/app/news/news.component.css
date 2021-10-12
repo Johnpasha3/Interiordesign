@@ -1,0 +1,30 @@
+.row img{
+    width: 750px;
+    height: 300px;
+}
+.col-sm-4{
+    text-align: center;
+}
+input[type]{
+    text-align: center;
+}
+h6{
+    text-decoration: 2px solid underline;
+}
+img {
+    
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    user-select: none;
+    z-index: 10;
+    overflow: hidden
+}
+img:hover {
+    color: #ec0f08;
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
+    background-color: #1b9ce3;
+}
